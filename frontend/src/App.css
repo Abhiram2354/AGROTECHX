@@ -1,0 +1,132 @@
+.home-container{
+  min-height:100vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  url("https://images.unsplash.com/photo-1500937386664-56d1dfef3854");
+  background-size: cover;
+  text-align:center;
+  color:white;
+  padding-top:80px;
+}
+
+.title{
+  font-size:45px;
+}
+
+.subtitle{
+  margin-bottom:60px;
+}
+
+.card-grid{
+  display:grid;
+  grid-template-columns: repeat(2,250px);
+  justify-content:center;
+  gap:40px;
+}
+
+.home-card{
+  background:white;
+  color:#2e7d32;
+  padding:40px;
+  border-radius:20px;
+  cursor:pointer;
+  transition:0.3s;
+  box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.home-card:hover{
+  transform:translateY(-10px) scale(1.05);
+  background:#e8f5e9;
+}
+.icon-large{
+  font-size:60px;
+  margin-bottom:15px;
+}
+.container{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:20px;
+}
+.result-box{
+  margin-top:30px;
+  background:white;
+  padding:25px;
+  border-radius:20px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+  max-width:500px;
+}
+.upload-card{
+  background:white;
+  padding:30px;
+  border-radius:20px;
+  cursor:pointer;
+  transition:0.3s;
+  width:200px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.upload-card:hover{
+  transform:translateY(-10px);
+}
+
+.tips-box{
+  margin-top:40px;
+  background:#e8f5e9;
+  padding:25px;
+  border-radius:20px;
+  max-width:500px;
+}
+.upload-card{
+  background:white;
+  padding:30px;
+  border-radius:20px;
+  cursor:pointer;
+  transition:0.3s;
+  width:200px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.upload-card:hover{
+  transform:translateY(-10px);
+}
+
+.tips-box{
+  margin-top:40px;
+  background:#e8f5e9;
+  padding:25px;
+  border-radius:20px;
+  max-width:500px;
+}
+.container{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:20px;
+}
+
+.result-box{
+  margin-top:30px;
+  background:white;
+  padding:25px;
+  border-radius:20px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+  max-width:500px;
+}
+select{
+  margin-top:15px;
+  display:block;
+}
+
+.result-box{
+  margin-top:40px;
+  background:white;
+  padding:25px;
+  border-radius:20px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
